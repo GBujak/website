@@ -1,0 +1,19 @@
+@import 'blog-page.scss';
+
+// Zilla Slab, Montserrat, Inconsolata
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Zilla+Slab&display=swap');
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Zilla Slab', serif;
+// font-family: 'Inconsolata', monospace;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title, .subtitle {
+    font-family: 'Zilla Slab', serif;
+}
