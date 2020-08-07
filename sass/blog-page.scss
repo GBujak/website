@@ -1,28 +1,43 @@
-.blog-body {
-    max-width: 50rem;
+article.blog-body {
+    min-height: 100vh;
+    padding: 2rem;
+    background: #dedede;
+    font-size: 1.2em;
+    max-width: 50em;
     margin: auto;
 
-    & h1, h2, h3, h4, h5 {
-        margin: 1rem 0 1rem 0;
-    }
-
     .title {
-        font-size: 5rem;
+        font-size: 5em;
         font-weight: 400;
         text-align: center;
     }
 
     .subtitle {
+        font-size: 1.5em;
         text-align: center;
+        margin-top: .3em;
+        margin-bottom: .3em;
     }
-}
 
-pre {
-    padding: 1rem;
-    border: 1px solid black;
-    border-radius: 2px;
+    & * {
+        margin: .2em 0 .2em 0;
+    }
 
-    & code {
-        font-family: 'Inconsolata', monospace;
+    pre {
+        padding: 1em;
+        border: 1px solid black;
+        border-radius: 2px;
+    
+        & code {
+            font-family: 'Inconsolata', monospace;
+            font-size: .8em;
+        }
+    }
+
+    img {
+        padding: 1rem 0 1rem 0;
+        display: block;
+        max-width: 90%;
+        margin: auto;
     }
 }
